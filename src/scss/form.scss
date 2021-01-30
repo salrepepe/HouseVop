@@ -1,0 +1,61 @@
+.cta__form {
+  &__input {
+    width: 255px;
+    height: 50px;
+    background: #FFFFFF09;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: white;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin-right: 30px;
+    padding: 0 10px 0 10px;
+    &::placeholder{
+      color: white;
+    }
+    &:nth-child(2){
+      margin-right: 0;
+    }
+    &:valid{
+      &:not(:placeholder-shown){
+        border: 2px solid #D4C17F;
+      }
+    }
+  }
+
+  &__txt {
+    max-width: 255px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+  }
+  .button__block {
+    margin-top: 35px;
+  }
+
+  &__button {
+    margin-left: 35px;
+    width: 255px;
+    height: 50px;
+    background: #D4C17F;
+    border: none;
+    outline: none;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0 10px 0 10px;
+  }
+}

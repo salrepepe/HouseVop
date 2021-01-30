@@ -1,0 +1,27 @@
+.maps{
+  background: #242b33;
+  padding: 180px 0 180px;
+  position: relative;
+  &__title{
+    font-family: Playfair Display,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 100px;
+  }
+  &__number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: Playfair Display,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 533px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.02;
+  }
+}

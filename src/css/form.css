@@ -1,0 +1,36 @@
+.cta__form__input {
+  width: 255px;
+  height: 50px;
+  background: #FFFFFF09;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  color: white;
+  text-align: center;
+  outline: none;
+  border: none;
+  margin-right: 16px;
+}
+.cta__form__txt {
+  max-width: 255px;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #E7E7E7;
+}
+.cta__form .button__block {
+  margin-top: 35px;
+}
+.cta__form__button {
+  margin-left: 16px;
+  width: 255px;
+  height: 50px;
+  background: #D4C17F;
+  border: none;
+  outline: none;
+}

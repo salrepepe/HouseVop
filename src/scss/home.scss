@@ -1,0 +1,70 @@
+.home{
+  padding: 200px 0 74px;
+  background: url("../img/home/background.png")center/cover;
+  &__mouse{
+    object-fit: cover;
+    transition: 1.1s;
+    &:hover{
+      transform: scale(1.5);
+      transition: 1.1s;
+    }
+  }
+  &__title{
+    max-width: 556px;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #D4C17F;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  .mouseBlock{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 200px;
+  }
+
+  &__contacts{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 1s;
+
+    &:hover{
+      color: #D4C17F;
+      transition: 1s;
+    }
+    &:focus{
+      color: #D4C17F;
+      transition: 1s;
+    }
+  }
+  &__img{
+    margin-right: 18.5px;
+    object-fit: cover;
+    transition: 1.1s;
+
+    &:hover{
+      transform: scale(1.1);
+      transition: 1.1s;
+    }
+    &:focus{
+      transform: scale(1.1);
+      transition: 1.1s;
+    }
+
+  }
+  .col-6 {
+    flex: 0 0 auto;
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+

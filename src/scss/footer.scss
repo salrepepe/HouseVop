@@ -1,0 +1,70 @@
+.footer{
+  background: #2D343C;
+  padding: 51px 0 60px;
+  &__logo{
+    font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: white;
+  }
+  &__logoDescr{
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    color: white;
+  }
+  &__linkBlock {
+    display: flex;
+  }
+  &__link{
+    font-family: Raleway,sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    transition: 1s;
+
+    &:hover{
+      color: #D4C17F;
+      transition: 1s;
+    }
+    &:focus{
+      color: #D4C17F;
+      transition: 1s;
+    }
+  }
+  &__contacts{
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    &:first-child{
+      min-width: 240px;
+    }
+  }
+  &__email{
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #D4C17F;
+  }
+  .fab{
+    margin-right: 25px;
+    color: white;
+  }
+}

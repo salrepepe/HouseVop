@@ -1,0 +1,39 @@
+.testimonials{
+  padding: 140px 0 120px;
+  background: #242b33;
+  position: relative;
+  &__contentBlock{
+    margin-right: 70px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  &__imgBlock{
+
+  }
+  &__img{
+    object-fit: cover;
+  }
+  &__txt{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  &__number{
+    position: absolute;
+    top: 207px;
+    right: 0;
+    font-family: Playfair Display, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 0;
+    color: #FFFFFF;
+    opacity: 0.02;
+  }
+}
