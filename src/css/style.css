@@ -65,6 +65,24 @@
 .home__mouse {
   object-fit: cover;
   transition: 1.1s;
+  animation: mouse-traffic 2s infinite linear;
+}
+@keyframes mouse-traffic {
+  0% {
+    transform: translateY(0px)
+  }
+  25% {
+    transform: translateY(20px)
+  }
+  50% {
+    transform: translateY(40px)
+  }
+  75% {
+    transform: translateY(0px)
+  }
+  100% {
+    transform: translateY(0px)
+  }
 }
 .home__mouse:hover {
   transform: scale(1.5);
